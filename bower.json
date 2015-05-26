@@ -1,0 +1,22 @@
+{
+  "name": "TodoMVC",
+  "version": "0.0.0",
+  "authors": [
+    "Alfred H. WU <alfredhwu@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.8",
+    "ember-data": "~1.0.0-beta.8"
+  }
+}
