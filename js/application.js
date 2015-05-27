@@ -5,4 +5,8 @@
 window.Todos = Ember.Application.create();
 
 // indicate that AppAdapter is an extention of the DS.FixtureAdapter
-Todos.ApplicationAdapter = DS.FixtureAdapter.extend();
+//Todos.ApplicationAdapter = DS.FixtureAdapter.extend();
+
+Todos.ApplicationAdapter = DS.LSAdapter.extend({
+	namespace: 'todos-emberjs'
+});
